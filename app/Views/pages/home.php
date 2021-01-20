@@ -1,5 +1,5 @@
     <!-- about  -->
-    <div id="about" class="about top_layer">
+    <div id="#" class="about top_layer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-xs-12">
@@ -76,72 +76,56 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('/images/kopi.jpg') ?>" class="fancybox" rel="ligthbox">
-                                <img src="<?= base_url('images/kopi.jpg') ?>" class="zoom img-fluid " alt="">
+                            <a href="<?= base_url('/pages/produk') ?>">
+                                <img src="<?= base_url('images/c1.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
-                            <span class="hoverle">
-                                <a href="<?= base_url('/pages/produk') ?>" class="fancybox" rel="ligthbox">Kopi</a>
-                            </span>
                         </figure>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('images/sayur.jpg') ?>" class="fancybox" rel="ligthbox">
-                                <img src="<?= base_url('images/sayur.jpg') ?>" class="zoom img-fluid " alt="">
+                            <a href="<?= base_url('/pages/produk') ?>">
+                                <img src="<?= base_url('images/c2.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
-                            <span class="hoverle">
-                                <a href="<?= base_url('images/kopi.jpg') ?>" class="fancybox" rel="ligthbox">Sayur</a>
-                            </span>
                         </figure>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('images/3.jpg') ?>" class="fancybox" rel="ligthbox">
-                                <img src="<?= base_url('images/buah.jpg') ?>" class="zoom img-fluid " alt="">
+                            <a href="<?= base_url('/pages/produk') ?>">
+                                <img src="<?= base_url('images/c3.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
-                            <span class="hoverle">
-                                <a href="<?= base_url('images/buah.jpg') ?>" class="fancybox" rel="ligthbox">Buah</a>
-                            </span>
                         </figure>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('images/coconut.jpg') ?>" class="fancybox" rel="ligthbox">
-                                <img src="<?= base_url('images/coconut.jpg') ?>" class="zoom img-fluid " alt="">
+                            <a href="<?= base_url('/pages/produk') ?>">
+                                <img src="<?= base_url('images/c4.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
-                            <span class="hoverle">
-                                <a href="<?= base_url('images/coconut.jpg') ?>" class="fancybox" rel="ligthbox">Kelapa</a>
-                            </span>
                         </figure>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('images/copra.jfif') ?>" class="fancybox" rel="ligthbox">
-                                <img src="<?= base_url('images/copra.jfif') ?>" class="zoom img-fluid " alt="">
+                            <a href="<?= base_url('/pages/produk') ?>">
+                                <img src="<?= base_url('images/c5.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
-                            <span class="hoverle">
-                                <a href="<?= base_url('images/copra.jfif') ?>" class="fancybox" rel="ligthbox">Kopra</a>
-                            </span>
+
                         </figure>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('images/6.jpg') ?>" class="fancybox" rel="ligthbox">
-                                <img src="<?= base_url('images/6.jpg') ?>" class="zoom img-fluid " alt="">
+                            <a href="<?= base_url('/pages/produk') ?>">
+                                <img src="<?= base_url('images/c6.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
-                            <span class="hoverle">
-                                <a href="<?= base_url('images/6.jpg') ?>" class="fancybox" rel="ligthbox">Daging</a>
-                            </span>
+
                         </figure>
                     </div>
                 </div>
@@ -205,14 +189,24 @@
     </div>
     <!-- end Download -->
     <!-- about  -->
-    <div id="#" class="about top_layer">
+    <div id="about" class="about top_layer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="titlepage">
-                        <h2>About Us</h2>
-                        <span>We are an Indonesian company engaged in plantation and we also supply raw materials from coconut which will be in production some processed products.
-                            Our company is very skilled in the industry, we have the best experiences that make our customers satisfied with every existing cooperation.</span>
+                        <h2>Our Company</h2>
+                        <p style="text-align: left;">Indonesia is covered by primary tropical rainforests with a rich natural history. As such, Indonesia provides optimum climatic conditions and geological features that support floral species of tropical origins which include all of the major spices, one of the spices is cloves. With such specific natural endowments, since thousands of years ago, Indonesia had been well known as the Spice Islands.
+                            Seeing this potential, we built this farm cloves company which is engaged in the supply and supply of large-scale cloves of the highest quality from all over the archipelago from Indonesian farmers. Our company has been established since 2018, we are able to maintain and fulfill consumer desires to get the world's best cloves. We get the cloves directly come from more than 300 Indonesian clove farmers and employees of 50 people so that there is fairtrade and post-harvest handling in accordance with export standards to produce the best quality products.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="titlepage">
+                        <h2>Our Strategy</h2>
+                        <p style="text-align: left;">Strategy integration with no one left behind is the focus of our company today.
+                            Economic, social and environmental are our three main focuses to create a sustainable company.
+                            We continue to do integration with domestic farmers which are controlled by almost more than 100 farmer groups to supply the best quality mangosteen while providing market certainty to the related farmers so that the economy and life of the Indonesian farmers will remain secure, so this is a reflection. in carrying out the integration of the three aspects without being left behind. Not only with farmers, we also have good cooperation with the ministry of agriculture and trade to support government programs to increase foreign exchange.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -245,8 +239,8 @@
                                 <div class="container">
                                     <div class="carousel-caption relat">
                                         <h3>Yudhi Artha</h3>
-                                        <span><i class="fa fa-quote-left"></i> ( Presiden Direktur )<i class="fa fa-quote-right"></i></span>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </p>
+                                        <span><i class="fa fa-quote-left"></i> ( Presiden Director )<i class="fa fa-quote-right"></i></span>
+                                        <p>Success is not accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.</p>
                                     </div>
                                 </div>
                             </div>
@@ -255,8 +249,18 @@
                                 <div class="container">
                                     <div class="carousel-caption relat">
                                         <h3>Juni</h3>
-                                        <span><i class="fa fa-quote-left"></i> ( Direktur Utama )<i class="fa fa-quote-right"></i></span>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </p>
+                                        <span><i class="fa fa-quote-left"></i> ( Director )<i class="fa fa-quote-right"></i></span>
+                                        <p>Plant your dream, and let them grow</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="second-slide" src="<?= base_url('images/team2.jfif') ?> " style="margin-top: 5%;">
+                                <div class="container">
+                                    <div class="carousel-caption relat">
+                                        <h3>Juni</h3>
+                                        <span><i class="fa fa-quote-left"></i> ( Digital Marketing Manager )<i class="fa fa-quote-right"></i></span>
+                                        <p>You don’t need more luck, you need more hardwork and persistence</p>
                                     </div>
                                 </div>
                             </div>

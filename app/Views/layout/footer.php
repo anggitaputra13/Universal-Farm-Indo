@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright 2021 All Right Reserved By Global Fruit Indo</p>
+            <p>Copyright 2021 All Right Reserved By Cloves Farm</p>
         </div>
     </div>
 </footr>
