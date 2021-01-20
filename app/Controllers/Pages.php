@@ -7,7 +7,7 @@ class Pages extends BaseController
 	public function index()
 	{
 		$data = [
-			'title' => 'Global Fruit Indo'
+			'title' => 'Farm Cloves'
 		];
 		echo view('layout/header', $data);
 		echo view('layout/slider');

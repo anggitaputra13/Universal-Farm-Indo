@@ -168,7 +168,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                         <div class="full">
                             <div class="center-desk">
-                                <div class="logo" style="height: 100%; width: 100%;"> <a href="<?= base_url('/') ?>"><img src="<?= base_url('images/logo.png') ?>" width="100px;" height="100px;" alt=""></a> </div>
+                                <div class="logo" style="height: 100%; width: 100%;"> <a href="<?= base_url('/') ?>"><img src="<?= base_url('images/logo-fix.png') ?>" width="100px;" height="100px;" alt=""></a> </div>
                             </div>
                         </div>
                     </div>

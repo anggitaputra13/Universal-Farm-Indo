@@ -8,7 +8,7 @@
                     </div>
                     <br>
                     <h2 style="text-align: center;">Integrity</h2>
-                    <p>Integrity means telling the truth, keeping our word and treating others with fairness and respect. Integrity is one of our most cherished assets. It must not be compromised. Praesent commodo cursus magna.</p>
+                    <p>integrity means The quality of being honest, having strong moral principles and showing a consistent. Integrity is one of our most cherished assets. It must not be compromised. </p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-3 col-xs-12">
                     <div class="text-center">
@@ -16,7 +16,7 @@
                     </div>
                     <br>
                     <h2 style="text-align: center;">Quality</h2>
-                    <p>Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.</p>
+                    <p>Quality is to create and distribute high-quality goods and services, establishing a work environment and consistently delivering a customer experience that is “above and beyond.</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-3 col-xs-12">
                     <div class="text-center">
@@ -32,7 +32,7 @@
                     </div>
                     <br>
                     <h2 style="text-align: center;">Innovation</h2>
-                    <p> Innovation means inventing, designing, developing products and services that have high appeal in the marketplace and strengthen customer preference for the Universal Coco Indonesia project.</p>
+                    <p> carrying out of new combinations for development such as inventing, designing, developing products and services that have high appeal in the marketplace and strengthen customer preference for the Tropical Fruit Indonesia Project</p>
                 </div><!-- /.col-lg-4 -->
             </div>
         </div>
@@ -45,8 +45,7 @@
                 <div class="col-md-12">
                     <div class="titlepage">
                         <h2>Meet Our Company</h2>
-                        <span>We are an Indonesian company engaged in plantation and we also supply raw materials from coconut which will be in production some processed products.
-                            Our company is very skilled in the industry, we have the best experiences that make our customers satisfied with every existing cooperation.</span>
+                        <span>We are an Indonesian company that specialized in Cloves. We do supply the best variety of Cloves. Our company is very skilled in the industry, we have the best experiences that make our customers satisfied with every existing cooperation. Especially for our business partner satisfaction and also our customers, and we always give the best quality also against products we offer to them. </span>
                     </div>
                 </div>
             </div>
