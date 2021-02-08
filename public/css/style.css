@@ -453,6 +453,7 @@ a.readmore_bt {
 nav.main-menu {
   float: right;
   margin-left: 0;
+  margin-inline-start: auto;
 }
 
 .menu-area-main li:hover a,
@@ -1636,7 +1637,7 @@ input[type="radio"] .styled:checked + label::after {
 ---------------------------------------------------------------------*/
 
 .header {
-  background: #0fc690;
+  background: #000000;
   padding: 10px 0px;
   padding-bottom: 20px;
 }
@@ -1673,8 +1674,8 @@ input[type="radio"] .styled:checked + label::after {
 
 .banner-main .carousel-caption a {
   text-transform: uppercase;
-  border: #0fc690 solid 1px;
-  background: #0fc690;
+  border: #000000 solid 1px;
+  background: #000000;
   width: 196px;
   padding: 12px 0;
   display: inline-block;
@@ -1748,7 +1749,7 @@ input[type="radio"] .styled:checked + label::after {
   font-weight: bold;
   color: #050303;
   line-height: 46px;
-  border-bottom: #0fc690 solid 1px;
+  border-bottom: #000000 solid 1px;
   width: 410px;
   margin: 0 auto;
   margin-bottom: 0px;
@@ -1784,8 +1785,8 @@ input[type="radio"] .styled:checked + label::after {
 }
 
 .about .img-box a:hover {
-  border: #0fc690 solid 1px;
-  background: #0fc690;
+  border: #000000 solid 1px;
+  background: #000000;
 }
 
 /** end about section **/
@@ -1844,7 +1845,7 @@ input[type="radio"] .styled:checked + label::after {
   font-weight: bold;
   color: #050303;
   line-height: 46px;
-  border-bottom: #0fc690 solid 1px;
+  border-bottom: #000000 solid 1px;
   width: 210px;
   margin: 0 auto;
   margin-bottom: 0px;
@@ -1860,7 +1861,7 @@ input[type="radio"] .styled:checked + label::after {
   text-align: center;
   display: flex;
   justify-content: center;
-  background: #0fc690d6;
+  background: #000000;
   align-items: center;
   margin: 0 15px;
 }
@@ -1973,7 +1974,7 @@ img.zoom {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-  background: #0fc690;
+  background: #000000;
   color: #fff;
 }
 
@@ -2007,13 +2008,13 @@ img.zoom {
 }
 
 .read-more a:hover {
-  background: #0fc690;
+  background: #000000;
 }
 
 /** end download section **/
 
 .testimonial {
-  background: #0fc690;
+  background: #000000;
   padding: 60px 0px;
 }
 
@@ -2051,7 +2052,7 @@ img.zoom {
 }
 
 .carousel-caption.relat h3 {
-  color: #0fc690;
+  color: #000000;
   font-size: 20px;
   text-transform: uppercase;
   line-height: 20px;
@@ -2075,7 +2076,7 @@ img.zoom {
 #testimonial_slider .carousel-control-prev:focus,
 #testimonial_slider .carousel-control-next:focus {
   color: #fff;
-  background: #0fc690;
+  background: #000000;
   width: 50px;
   height: 50px;
 }
@@ -2149,8 +2150,8 @@ img.zoom {
 }
 
 .testimonial .contact .send:hover {
-  background-color: #0fc690;
-  border: #0fc690 solid 1px;
+  background-color: #000000;
+  border: #000000 solid 1px;
   color: #fff;
 }
 
@@ -2159,7 +2160,7 @@ img.zoom {
 }
 
 .footer {
-  background: #023023;
+  background: #000000;
   padding-top: 55px;
 }
 
@@ -2264,8 +2265,8 @@ ul.contant_icon li img {
 
 .footer .address .submit-btn {
   padding: 5px 29px;
-  border: #0fc690 solid 1px;
-  background: #0fc690;
+  border: #fff solid 1px;
+  background: #000000;
   color: #fff;
   font-weight: 500;
   font-size: 20px;
@@ -2290,7 +2291,7 @@ ul.contant_icon li img {
 }
 
 .copyright a:hover {
-  color: #0fc690;
+  color: #000000;
 }
 
 /*---------------------------------------------------------------------
@@ -2370,7 +2371,7 @@ ul.contant_icon li img {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-  background: #0fc690;
+  background: #000000;
   color: #fff;
 }
 
@@ -2386,4 +2387,153 @@ ul.contant_icon li img {
   left: 10px;
   top: inherit;
   bottom: 10px;
+}
+
+/** For Bar Status **/
+.wabutton {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.bar-chart {
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+  padding-bottom: 1px;
+}
+
+.bar-chart > .legend {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  margin-bottom: -45px;
+  border-top: 1px solid #000;
+}
+
+.bar-chart > .legend > .label {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.bar-chart > .legend > .label:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 1px;
+  height: 8px;
+  background-color: #000;
+  margin-top: -8px;
+}
+
+.bar-chart > .legend > .label.last:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  content: "";
+  width: 1px;
+  height: 8px;
+  background-color: #000;
+  margin-top: -8px;
+}
+
+.bar-chart > .legend > .label h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bar-chart > .chart {
+  position: relative;
+  width: 100%;
+}
+
+.bar-chart > .chart > .item {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bar-chart > .chart > .item > .bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: 5;
+}
+
+.bar-chart > .chart > .item > .bar > .persen {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 12px;
+  z-index: 15;
+}
+
+.bar-chart > .chart > .item > .bar > .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #000000;
+  z-index: 10;
+}
+
+.bar-chart > .chart > .item > .bar > .progress > .title {
+  display: block;
+  position: absolute;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 12px;
+  letter-spacing: 2px;
+  z-index: 15;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
 }

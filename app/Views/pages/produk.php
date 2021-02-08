@@ -13,42 +13,14 @@
                 <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="first-slide" src="<?= base_url('images/c1.jfif') ?>" alt="First slide">
+                            <img class="first-slide" src="<?= base_url('images/cengkeh1.jfif') ?>" alt="First slide">
                             <div class="row">
                                 <div class="col-md-12">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="second-slide" src="<?= base_url('images/c2.jfif') ?>" alt="Second slide">
-                            <div class="row">
-                                <div class="col-md-12">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="third-slide" src="<?= base_url('images/c3.jfif') ?>" alt="Third slide">
-                            <div class="row">
-                                <div class="col-md-12">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="third-slide" src="<?= base_url('images/c4.jfif') ?>" alt="Third slide">
-                            <div class="row">
-                                <div class="col-md-12">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="third-slide" src="<?= base_url('images/c5.jfif') ?>" alt="Third slide">
-                            <div class="row">
-                                <div class="col-md-12">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="third-slide" src="<?= base_url('images/c6.jfif') ?>" alt="Third slide">
+                            <img class="second-slide" src="<?= base_url('images/cengkeh2.jpg') ?>" alt="Second slide">
                             <div class="row">
                                 <div class="col-md-12">
                                 </div>
@@ -109,7 +81,7 @@
                                 <div class="bar">
                                     <span class="persen">5%</span>
 
-                                    <div class="progress" data-persen="85">
+                                    <div class="progress" data-persen="5">
                                         <span class="title">Mouisture</span>
                                     </div>
                                 </div>
@@ -119,7 +91,7 @@
                                 <div class="bar">
                                     <span class="persen">1%</span>
 
-                                    <div class="progress" data-persen="68">
+                                    <div class="progress" data-persen="1">
                                         <span class="title">Stems</span>
                                     </div>
                                 </div>
@@ -129,7 +101,7 @@
                                 <div class="bar">
                                     <span class="persen">1%</span>
 
-                                    <div class="progress" data-persen="59">
+                                    <div class="progress" data-persen="1">
                                         <span class="title">Baby Cloves</span>
                                     </div>
                                 </div>
@@ -139,7 +111,7 @@
                                 <div class="bar">
                                     <span class="persen">3%</span>
 
-                                    <div class="progress" data-persen="91">
+                                    <div class="progress" data-persen="3">
                                         <span class="title">Headless Cloves</span>
                                     </div>
                                 </div>
@@ -148,7 +120,7 @@
                                 <div class="bar">
                                     <span class="persen">0%</span>
 
-                                    <div class="progress" data-persen="91">
+                                    <div class="progress" data-persen="0">
                                         <span class="title">Odd Matters</span>
                                     </div>
                                 </div>

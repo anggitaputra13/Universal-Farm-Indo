@@ -7,7 +7,7 @@ class Pages extends BaseController
 	public function index()
 	{
 		$data = [
-			'title' => 'Farm Cloves'
+			'title' => 'Universal Farm Indo'
 		];
 		echo view('layout/header', $data);
 		echo view('layout/slider');
@@ -17,7 +17,7 @@ class Pages extends BaseController
 	public function produk()
 	{
 		$data = [
-			'title' => 'Produk | Global Fruit Indo'
+			'title' => 'Produk | Universal Farm Indo'
 		];
 		echo view('layout/header', $data);
 		echo view('pages/produk');

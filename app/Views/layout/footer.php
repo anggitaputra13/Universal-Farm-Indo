@@ -6,17 +6,17 @@
                 <div class="col-lg-5 col-md-6 col-sm-12 width">
                     <div class="address">
                         <h3>Address</h3>
-                        <i><img src="<?= base_url('icon/3.png') ?>">Jl.Sekar Sari IX, Kesiman, Denpasar - Bali</i>
+                        <i><img src="<?= base_url('icon/loc.png') ?>">Jl.Gurita GG.Scorpio No.11A, Sesetan, Denpasar, Bali</i>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 width">
                     <div class="address">
                         <h3>Social Media </h3>
                         <ul class="contant_icon">
-                            <li><img src="<?= base_url('icon/fb.png') ?>" alt="icon" /></li>
-                            <li><img src="<?= base_url('icon/tw.png') ?>" alt="icon" /></li>
-                            <li><img src="<?= base_url('icon/lin (2).png') ?>" alt="icon" /></li>
-                            <li><img src="<?= base_url('icon/instagram.png') ?>" alt="icon" /></li>
+                            <li><a href="https://www.facebook.com/UniversalFarmIndo/"><img src="<?= base_url('icon/fb.png') ?>" alt="icon" /></a></li>
+                            <li><img src="<?= base_url('icon/twt.png') ?>" alt="icon" /></li>
+                            <li><a href="https://www.linkedin.com/in/universal-farmindo-aa537a206/"><img src="<?= base_url('icon/link.png') ?>" alt="icon" /></a></li>
+                            <li><a href="https://instagram.com/universalfarmindo?igshid=166rsfnmt3c8c"><img src="<?= base_url('icon/ig.png') ?>" alt="icon" /></a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
         }
     });
 </script>
-<a href="https://web.whatsapp.com/">
+<a href="https://wa.me/message/7MOYTR37JYRPB1">
     <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" class="wabutton" alt="WhatsApp-Button">
 </a>
 </body>

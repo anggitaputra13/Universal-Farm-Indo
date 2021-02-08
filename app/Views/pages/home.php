@@ -59,8 +59,56 @@
         </div>
     </div>
     <!-- end abouts -->
-    <!-- service -->
+    <!-- product -->
     <div id="service" class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Product</h2>
+                        <span>We are an Indonesian company that specialized in Cloves. We do supply the best variety of Cloves. Our company is very skilled in the industry, we have the best experiences that make our customers satisfied with every existing cooperation. Especially for our business partner satisfaction and also our customers, and we always give the best quality also against products we offer to them. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="<?= base_url('/pages/produk') ?>">
+                                    <img class="first-slide" src="<?= base_url('images/cengkeh1.jfif') ?>" alt="First slide">
+                                </a>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="titlepage">
+                                            <h2>Cloves</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="<?= base_url('/pages/produk') ?>">
+                                    <img class="second-slide" src="<?= base_url('images/cengkeh2.jpg') ?>" alt="Second slide">
+                                </a>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="titlepage">
+                                            <h2>Cloves</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev"> <i class='fa fa-angle-left'></i></a> <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next"> <i class='fa fa-angle-right'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Product -->
+    <!-- <div id="service" class="service">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -132,7 +180,7 @@
             </div>
         </div>
     </div>
-    <!-- end service -->
+    <!== end product -->
     <!-- Download -->
     <div id="download" class="download">
         <div class="container">
@@ -148,17 +196,18 @@
                     <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="first-slide" src="<?= base_url('images/banner.png') ?>" alt="First slide">
+                                <img class="first-slide" src="<?= base_url('images/wijaya.png') ?>" alt="First slide">
+                                <br><br>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="titlepage">
-                                            <h2>Name Client</h2>
-                                            <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of <br>using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span>
+                                            <h2>Wijaya Farm</h2>
+                                            <span>one of the distributors of agricultural and processed products leading to the tourism sector with a socialpreneur system in helping farmers and several other MSMEs.</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <img class="second-slide" src="<?= base_url('images/banner.png') ?>" alt="Second slide">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -179,7 +228,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev"> <i class='fa fa-angle-left'></i></a> <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next"> <i class='fa fa-angle-right'></i></a>
                     </div>
@@ -213,7 +262,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class=" img-box">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15777.654849040908!2d115.25281959299318!3d-8.652144381607531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2407349e349ed%3A0x4ccca017dcb19055!2sJl.%20Sekar%20Sari%20IX%2C%20Kesiman%20Kertalangu%2C%20Kec.%20Denpasar%20Tim.%2C%20Kota%20Denpasar%2C%20Bali%2080237!5e0!3m2!1sid!2sid!4v1610793322635!5m2!1sid!2sid" style="height: 20rem; width: 20rem" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15777.654849040908!2d115.25281959299318!3d-8.652144381607531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2407349e349ed%3A0x4ccca017dcb19055!2sJl.%20Sekar%20Sari%20IX%2C%20Kesiman%20Kertalangu%2C%20Kec.%20Denpasar%20Tim.%2C%20Kota%20Denpasar%2C%20Bali%2080237!5e0!3m2!1sid!2sid!4v1610793322635!5m2!1sid!2sid" style="height: 20rem; width: 20rem" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.8632623443596!2d115.21575991420623!3d-8.704532793746338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24116b484f195%3A0x690760bc41e1f828!2sJl.%20Gurita%2C%20Kec.%20Denpasar%20Sel.%2C%20Kota%20Denpasar%2C%20Bali%2080223!5e0!3m2!1sid!2sid!4v1612767438272!5m2!1sid!2sid" style="height: 20rem; width: 20rem; border:0;" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -254,16 +304,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img class="second-slide" src="<?= base_url('images/team2.jfif') ?> " style="margin-top: 5%;">
-                                <div class="container">
-                                    <div class="carousel-caption relat">
-                                        <h3>Juni</h3>
-                                        <span><i class="fa fa-quote-left"></i> ( Digital Marketing Manager )<i class="fa fa-quote-right"></i></span>
-                                        <p>You don’t need more luck, you need more hardwork and persistence</p>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                         <a class="carousel-control-prev" href="#testimonial_slider" role="button" data-slide="prev"> <i class='fa fa-angle-right'></i></a> <a class="carousel-control-next" href="#testimonial_slider" role="button" data-slide="next"> <i class='fa fa-angle-left'></i></a>
                     </div>
@@ -274,19 +315,19 @@
                         <form>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <input class="contactus" placeholder="Email     : yudhiartawijaya@gmail.com" type="text" name="Name" disabled>
+                                    <input class="contactus" placeholder="Email     : juniyanti@universalfarmindo.com" type="text" name="Name" disabled>
                                 </div>
                                 <div class="col-sm-12">
                                     <input class="contactus" placeholder="Phone    : +6287887851765" type="text" name="Email" disabled>
                                 </div>
                                 <div class="col-sm-12">
-                                    <input class="contactus" placeholder="Address : Jl.Sekar Sari IX, Kesiman, Denpasar - Bali" type="text" name="Email" disabled>
+                                    <input class="contactus" placeholder="Address : Jl.Gurita GG.Scorpio No.11A, Sesetan, Denpasar, Bali" type="text" name="Email" disabled>
                                 </div>
                                 <div class="col-sm-12">
                                     <input class="contactus" placeholder="Open Hours : Everyday at 9AM - 5PM" type="text" name="Email" disabled>
                                 </div>
                                 <div class="col-sm-12">
-                                    <a href="https://web.whatsapp.com/" style="text-decoration: none; "><button class="send">Chat Now</button></a>
+                                    <a href="https://wa.me/message/7MOYTR37JYRPB1" style="text-decoration: none; "><button class="send">Chat Now</button></a>
                                 </div>
                                 <br><br>
                             </div>
