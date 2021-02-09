@@ -75,7 +75,7 @@
                     <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <a href="<?= base_url('/pages/produk') ?>">
+                                <a href="<?= base_url('/produk/index') ?>">
                                     <img class="first-slide" src="<?= base_url('images/cengkeh1.jfif') ?>" alt="First slide">
                                 </a>
                                 <br><br>
@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <a href="<?= base_url('/pages/produk') ?>">
+                                <a href="<?= base_url('/produk/index') ?>">
                                     <img class="second-slide" src="<?= base_url('images/cengkeh2.jpg') ?>" alt="Second slide">
                                 </a>
                                 <br><br>
@@ -124,7 +124,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('/pages/produk') ?>">
+                            <a href="<?= base_url('/produk/index') ?>">
                                 <img src="<?= base_url('images/c1.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
                         </figure>
@@ -133,7 +133,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('/pages/produk') ?>">
+                            <a href="<?= base_url('/produk/index') ?>">
                                 <img src="<?= base_url('images/c2.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
                         </figure>
@@ -142,7 +142,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('/pages/produk') ?>">
+                            <a href="<?= base_url('/produk/index') ?>">
                                 <img src="<?= base_url('images/c3.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
                         </figure>
@@ -151,7 +151,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('/pages/produk') ?>">
+                            <a href="<?= base_url('/produk/index') ?>">
                                 <img src="<?= base_url('images/c4.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
                         </figure>
@@ -160,7 +160,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('/pages/produk') ?>">
+                            <a href="<?= base_url('/produk/index') ?>">
                                 <img src="<?= base_url('images/c5.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
 
@@ -170,7 +170,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div class="service-box">
                         <figure>
-                            <a href="<?= base_url('/pages/produk') ?>">
+                            <a href="<?= base_url('/produk/index') ?>">
                                 <img src="<?= base_url('images/c6.jfif') ?>" class="zoom img-fluid " alt="">
                             </a>
 

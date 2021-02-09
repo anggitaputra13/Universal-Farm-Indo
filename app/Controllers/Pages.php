@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\ProdukModel;
+
 class Pages extends BaseController
 {
 	public function index()
@@ -14,16 +16,6 @@ class Pages extends BaseController
 		echo view('pages/home');
 		echo view('layout/footer');
 	}
-	public function produk()
-	{
-		$data = [
-			'title' => 'Produk | Universal Farm Indo'
-		];
-		echo view('layout/header', $data);
-		echo view('pages/produk');
-		echo view('layout/footer');
-	}
-
 
 	//--------------------------------------------------------------------
 
