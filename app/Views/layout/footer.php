@@ -6,7 +6,7 @@
                 <div class="col-lg-5 col-md-6 col-sm-12 width">
                     <div class="address">
                         <h3>Address</h3>
-                        <i><img src="<?= base_url('icon/loc.png') ?>">Jl.Gurita GG.Scorpio No.11A, Sesetan, Denpasar, Bali</i>
+                        <i><img src="<?= base_url('icon/loc.png') ?>">Jl.Gurita GG.Scorpio No.11A, Sesetan, Denpasar, Bali - Indonesia</i>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 width">
@@ -14,7 +14,6 @@
                         <h3>Social Media </h3>
                         <ul class="contant_icon">
                             <li><a href="https://www.facebook.com/UniversalFarmIndo/"><img src="<?= base_url('icon/fb.png') ?>" alt="icon" /></a></li>
-                            <li><img src="<?= base_url('icon/twt.png') ?>" alt="icon" /></li>
                             <li><a href="https://www.linkedin.com/in/universal-farmindo-aa537a206/"><img src="<?= base_url('icon/link.png') ?>" alt="icon" /></a></li>
                             <li><a href="https://instagram.com/universalfarmindo?igshid=166rsfnmt3c8c"><img src="<?= base_url('icon/ig.png') ?>" alt="icon" /></a></li>
                         </ul>
@@ -24,13 +23,13 @@
                     <div class="address">
                         <h3>Newsletter </h3>
                         <input class="form-control" placeholder="Enter your email" type="type" name="Enter your email">
-                        <button class="submit-btn">Subscribe</button>
+                        <a href="mailto:juniyanti@universalfarmindo.com"><button class="submit-btn">Subscribe</button></a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright 2021 All Right Reserved By Cloves Farm</p>
+            <p>Copyright 2021 All Right Reserved By Universal Farm Indo</p>
         </div>
     </div>
 </footr>

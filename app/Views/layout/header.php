@@ -20,7 +20,7 @@
     <!-- Responsive-->
     <link rel="stylesheet" href="<?= base_url('css/responsive.css') ?>">
     <!-- fevicon -->
-    <link rel="icon" href="<?= base_url('images/fevicon.png') ?>" type="image/gif" />
+    <link rel="icon" href="<?= base_url('images/logo1.png') ?>" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="<?= base_url('css/jquery.mCustomScrollbar.min.css') ?>">
     <!-- Tweaks for older IEs-->
@@ -46,7 +46,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                         <div class="full">
                             <div class="center-desk">
-                                <div class="logo" style="height: 80%; width: 80%;"> <a href="<?= base_url('/') ?>"><img src="<?= base_url('images/logop1.png') ?>" width="100px;" height="100px;" alt=""></a> </div>
+                                <div class="logo" style="height: 80%; width: 100%;"> <a href="<?= base_url('/') ?>"><img src="<?= base_url('images/logop1.png') ?>" width="100px;" height="100px;" alt=""></a> </div>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,6 @@
                                     <ul class="menu-area-main" style="margin-top: 5%">
                                         <li> <a href="<?= base_url('/') ?>">Home</a> </li>
                                         <li> <a href="#service"> Product</a> </li>
-                                        <li> <a href="#download">Our Clients</a> </li>
                                         <li> <a href="#testimonial">Contact Us</a> </li>
                                         <li> <a href="#about">About Us</a> </li>
                                     </ul>

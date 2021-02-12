@@ -39,7 +39,7 @@
     </div>
     <!-- end abouts -->
     <!-- about  -->
-    <div id="#" class="about top_layer">
+    <div id="#" class="about top_layer" style="padding-top: 10px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -52,7 +52,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class=" img-box">
-                        <iframe src="https://www.youtube.com/embed/SWxBQwfI0NU" style="height: 20rem; width: 20rem" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--<iframe src="https://www.youtube.com/embed/SWxBQwfI0NU" style="height: 20rem; width: 20rem" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                        <iframe style="height: 20rem; width: 20rem" src="https://www.youtube.com/embed/17sPjOJ5YNU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -66,7 +67,7 @@
                 <div class="col-md-12">
                     <div class="titlepage">
                         <h2>Product</h2>
-                        <span>We are an Indonesian company that specialized in Cloves. We do supply the best variety of Cloves. Our company is very skilled in the industry, we have the best experiences that make our customers satisfied with every existing cooperation. Especially for our business partner satisfaction and also our customers, and we always give the best quality also against products we offer to them. </span>
+                        <span>Clove is a small, reddish-brown flower bud of the tropical evergreen tree Syzygium aromaticum of the family Myrtaceae. The clove tree is an evergreen plant that grows to about 8 to 12 meters in height. Its gland-dotted leaves are small, simple, and opposite. The trees are usually propagated from seeds that are planted in shaded areas. The flowers are small and produced in great profusion in clusters. The leaves, flowers, and bark are aromatic. The ripe fruit resembles an olive in shape but is smaller. It is dark red and is sometimes sold in a dried state under the name mother clove; in this form, it has an aroma and flavor similar to those of clove but much weaker</span>
                     </div>
                 </div>
             </div>
@@ -76,7 +77,7 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <a href="<?= base_url('/produk/index') ?>">
-                                    <img class="first-slide" src="<?= base_url('images/cengkeh1.jfif') ?>" alt="First slide">
+                                    <img class="first-slide" src="<?= base_url('images/ss1.jpeg') ?>"  alt="Second slide">
                                 </a>
                                 <br><br>
                                 <div class="row">
@@ -89,7 +90,46 @@
                             </div>
                             <div class="carousel-item">
                                 <a href="<?= base_url('/produk/index') ?>">
-                                    <img class="second-slide" src="<?= base_url('images/cengkeh2.jpg') ?>" alt="Second slide">
+                                    <img class="second-slide" src="<?= base_url('images/ss2.jpeg') ?>" alt="Second slide">
+                                </a>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="titlepage">
+                                            <h2>Cloves</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="<?= base_url('/produk/index') ?>">
+                                    <img class="second-slide" src="<?= base_url('images/ss3.jpeg') ?>" alt="Third slide">
+                                </a>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="titlepage">
+                                            <h2>Cloves</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="<?= base_url('/produk/index') ?>">
+                                    <img class="second-slide" src="<?= base_url('images/ss4.jpeg') ?>" alt="Fourth slide">
+                                </a>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="titlepage">
+                                            <h2>Cloves</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="<?= base_url('/produk/index') ?>">
+                                    <img class="second-slide" src="<?= base_url('images/ss5.jpeg') ?>" alt="Fifth slide">
                                 </a>
                                 <br><br>
                                 <div class="row">
@@ -181,64 +221,8 @@
         </div>
     </div>
     <!== end product -->
-    <!-- Download -->
-    <div id="download" class="download">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>Our Clients</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="first-slide" src="<?= base_url('images/wijaya.png') ?>" alt="First slide">
-                                <br><br>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="titlepage">
-                                            <h2>Wijaya Farm</h2>
-                                            <span>one of the distributors of agricultural and processed products leading to the tourism sector with a socialpreneur system in helping farmers and several other MSMEs.</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="carousel-item">
-                                <img class="second-slide" src="<?= base_url('images/banner.png') ?>" alt="Second slide">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="titlepage">
-                                            <h2>Name Client</h2>
-                                            <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of <br>using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="third-slide" src="<?= base_url('images/banner.png') ?>" alt="Third slide">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="titlepage">
-                                            <h2>Name Client</h2>
-                                            <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of <br>using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
-                        <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev"> <i class='fa fa-angle-left'></i></a> <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next"> <i class='fa fa-angle-right'></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end Download -->
     <!-- about  -->
-    <div id="about" class="about top_layer">
+    <div id="about" class="about top_layer" style="padding-top: 10px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -261,8 +245,11 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
+                    <div class="titlepage" style="padding-bottom: 18px;">
+                        <h2>Location</h2>
+                        <i><img src="<?= base_url('images/loc.png') ?>">Jl.Gurita GG.Scorpio No.11A, Sesetan, Denpasar, Bali - Indonesia</i>
+                    </div>
                     <div class=" img-box">
-                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15777.654849040908!2d115.25281959299318!3d-8.652144381607531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2407349e349ed%3A0x4ccca017dcb19055!2sJl.%20Sekar%20Sari%20IX%2C%20Kesiman%20Kertalangu%2C%20Kec.%20Denpasar%20Tim.%2C%20Kota%20Denpasar%2C%20Bali%2080237!5e0!3m2!1sid!2sid!4v1610793322635!5m2!1sid!2sid" style="height: 20rem; width: 20rem" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.8632623443596!2d115.21575991420623!3d-8.704532793746338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24116b484f195%3A0x690760bc41e1f828!2sJl.%20Gurita%2C%20Kec.%20Denpasar%20Sel.%2C%20Kota%20Denpasar%2C%20Bali%2080223!5e0!3m2!1sid!2sid!4v1612767438272!5m2!1sid!2sid" style="height: 20rem; width: 20rem; border:0;" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
@@ -285,22 +272,50 @@
                     <div id="testimonial_slider" class="carousel slide banner-bg" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="first-slide" src="<?= base_url('images/team1.jfif') ?>" style="margin-top: 5%;">
+                                <img class="first-slide" src="<?= base_url('images/team2.jfif') ?>" style="margin-top: 5%; width: 50%;
+    height: 100%;">
                                 <div class="container">
                                     <div class="carousel-caption relat">
-                                        <h3>Yudhi Artha</h3>
-                                        <span><i class="fa fa-quote-left"></i> ( Presiden Director )<i class="fa fa-quote-right"></i></span>
+                                        <h3>Juni Yanti</h3>
+                                        <span><i class="fa fa-quote-left"></i> ( President Director )<i class="fa fa-quote-right"></i></span>
                                         <p>Success is not accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.</p>
+                                        <span><i class="fa fa-quote-left"></i><a href="http://linkedin.com/in/juni-yanti-152865201"> Linkedin</a><i class="fa fa-quote-right"></i></span>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="second-slide" src="<?= base_url('images/team2.jfif') ?> " style="margin-top: 5%;">
+                                <img class="second-slide" src="<?= base_url('images/team1.jfif') ?> " style="margin-top: 5%; 5%; width: 50%;
+    height: 100%;">
                                 <div class="container">
                                     <div class="carousel-caption relat">
-                                        <h3>Juni</h3>
+                                        <h3>Yudhi Artha</h3>
                                         <span><i class="fa fa-quote-left"></i> ( Director )<i class="fa fa-quote-right"></i></span>
-                                        <p>Plant your dream, and let them grow</p>
+                                        <p>Plant your dream, and let them grow.</p>
+                                        <span><i class="fa fa-quote-left"></i><a href="http://linkedin.com/in/yudhi-artawijaya-3b126b1ba"> Linkedin</a><i class="fa fa-quote-right"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="third-slide" src="<?= base_url('images/martha.jpeg') ?> " style="margin-top: 5%; 5%; width: 50%;
+    height: 100%;">
+                                <div class="container">
+                                    <div class="carousel-caption relat">
+                                        <h3>Ayu Martha</h3>
+                                        <span><i class="fa fa-quote-left"></i> ( Public Relation )<i class="fa fa-quote-right"></i></span>
+                                        <p>Do what you want to do, and be what you want to be.</p>
+                                        <span><i class="fa fa-quote-left"></i><a href="http://linkedin.com/in/ayu-martha-24496b1a0"> Linkedin</a><i class="fa fa-quote-right"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="third-slide" src="<?= base_url('images/anggita.jpg') ?> " style="margin-top: 5%; 5%; width: 50%;
+    height: 100%;">
+                                <div class="container">
+                                    <div class="carousel-caption relat">
+                                        <h3>Anggita Putra</h3>
+                                        <span><i class="fa fa-quote-left"></i> ( Digital Marketing Manager )<i class="fa fa-quote-right"></i></span>
+                                        <p>Never stop learning, because life never stop teaching.</p>
+                                        <span><i class="fa fa-quote-left"></i><a href="https://www.linkedin.com/in/anggita-putra-1a911a175"> Linkedin</a><i class="fa fa-quote-right"></i></span>
                                     </div>
                                 </div>
                             </div>
@@ -312,13 +327,13 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="contact">
                         <h3>Contact Us</h3>
-                        <form>
+                       
                             <div class="row">
                                 <div class="col-sm-12">
                                     <input class="contactus" placeholder="Email     : juniyanti@universalfarmindo.com" type="text" name="Name" disabled>
                                 </div>
                                 <div class="col-sm-12">
-                                    <input class="contactus" placeholder="Phone    : +6287887851765" type="text" name="Email" disabled>
+                                    <input class="contactus" placeholder="Phone    : +6282384666506" type="text" name="Email" disabled>
                                 </div>
                                 <div class="col-sm-12">
                                     <input class="contactus" placeholder="Address : Jl.Gurita GG.Scorpio No.11A, Sesetan, Denpasar, Bali" type="text" name="Email" disabled>
@@ -327,11 +342,11 @@
                                     <input class="contactus" placeholder="Open Hours : Everyday at 9AM - 5PM" type="text" name="Email" disabled>
                                 </div>
                                 <div class="col-sm-12">
-                                    <a href="https://wa.me/message/7MOYTR37JYRPB1" style="text-decoration: none; "><button class="send">Chat Now</button></a>
+                                    <a href="https://api.whatsapp.com/message/7MOYTR37JYRPB1" style="text-decoration: none; "><button class="send">Chat Now</button></a>
                                 </div>
                                 <br><br>
                             </div>
-                        </form>
+                        
                     </div>
                 </div>
             </div>

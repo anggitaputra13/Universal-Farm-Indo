@@ -14,19 +14,19 @@
                     <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="first-slide" src="<?= base_url('images/cengkeh1.jfif') ?>" alt="First slide">
+                                <img class="first-slide" src="<?= base_url('images/cloves.jpeg') ?>" alt="First slide">
                                 <div class="row">
                                     <div class="col-md-12">
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img class="second-slide" src="<?= base_url('images/cengkeh2.jpg') ?>" alt="Second slide">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                    </div>
-                                </div>
-                            </div>
+                            <!--<div class="carousel-item">-->
+                            <!--    <img class="second-slide" src="<?= base_url('images/cloves.jpeg') ?>" alt="Second slide">-->
+                            <!--    <div class="row">-->
+                            <!--        <div class="col-md-12">-->
+                            <!--        </div>-->
+                            <!--    </div>-->
+                            <!--</div>-->
                         </div>
                         <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev"> <i class='fa fa-angle-left'></i></a> <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next"> <i class='fa fa-angle-right'></i></a>
                     </div>
@@ -74,62 +74,29 @@
                 </div>
                 <div class="col-md-6">
                     <div class="container">
-                        <div class="bar-chart">
-                            <!-- legend label -->
-                            <!-- bar -->
-                            <div class="chart clearfix">
-                                <span class="title">Mouisture</span>
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="persen">5%</span>
-
-                                        <div class="progress" data-persen="<?= $p['Mouisture']; ?>">
-                                        </div>
-                                    </div>
-                                </div>
-                                <span class="title">Stems</span>
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="persen">1%</span>
-
-                                        <div class="progress" data-persen="<?= $p['Stems']; ?>">
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <span class="title">Baby Cloves</span>
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="persen">1%</span>
-
-                                        <div class="progress" data-persen="<?= $p['Baby Cloves']; ?>">
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <span class="title">Headless Cloves</span>
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="persen">3%</span>
-
-                                        <div class="progress" data-persen="<?= $p['Headless Cloves']; ?>">
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <span class="title">Odd Matters</span>
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="persen">0%</span>
-
-                                        <div class="progress" data-persen="<?= $p['Odd Matters']; ?>">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
+                         <table id="customers">
+                            <tr>
+                                <th style="text-align: center;">Spesification</th>
+                                <th style="text-align: center;">Value</th>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">Mouisture</td>
+                                <td style="text-align: center;"><?= $p['Mouisture']; ?></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">Foreign Matter</td>
+                                <td style="text-align: center;"><?= $p['Foreign Matter']; ?></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">Processing Type</td>
+                                <td style="text-align: center;"><?= $p['Processing Type']; ?></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">Admixture</td>
+                                <td style="text-align: center;"><?= $p['Admixture']; ?>"</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
